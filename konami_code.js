@@ -22,7 +22,7 @@ function onKeyDownHandler(e) {
   if (key === codes[index]) {
     index++;
  
-    if (index === codes.length) {
+  if (index === codes.length) {
       alert("Hurray! You did it, Boss!");
  
       index = 0;
